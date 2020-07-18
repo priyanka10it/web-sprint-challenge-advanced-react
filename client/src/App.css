@@ -239,7 +239,7 @@ pre {
 .steps li {
   background: #cf0;
   padding: 3px 15px;
-  margin-right: 15px;
+  margin-right: 10px;
   position: relative;
 }
 
@@ -250,4 +250,34 @@ pre {
 .active {
   color: #0e101c;
   border-bottom: 2px solid !important;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color:grey;
+}
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+ 
+  width: 40px;
+}
+
+.toggle {
+  background:green;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: relative;
+  
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
 }
